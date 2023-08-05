@@ -68,7 +68,7 @@ scene.background = spaceTexture;
 const chrisTexture = new THREE.TextureLoader().load('./assets/profile.png')
 //addingobject on the scene with material
 const chris = new THREE.Mesh(
-    new THREE.BoxGeometry(7,9,7),
+    new THREE.BoxGeometry(5,6,5),
     new THREE.MeshBasicMaterial({map:chrisTexture})
 )
 
@@ -105,7 +105,7 @@ function moveCamera(){
     chris.position.z += 0.01;
 
     camera.position.z = t * -0.01;
-    camera.position.x = t * 0.0002;
+    camera.position.x = t * -0.0002;
     camera.position.y = t * -0.0002;
 }
 

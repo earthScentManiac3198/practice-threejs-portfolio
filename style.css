@@ -7,6 +7,15 @@
     bottom: 0px; */
 }
 
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
 #section{
-    height: 200vh;
+    position: absolute;
+    width: 100%;
+    height: 1000vh;
 }
